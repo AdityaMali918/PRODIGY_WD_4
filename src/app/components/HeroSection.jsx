@@ -13,7 +13,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1,scale:1 }}
+                    animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                     className='col-span-7 place-self-centerd text-center sm:text-left'>
                     <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
@@ -45,9 +45,9 @@ const HeroSection = () => {
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1,scale:1 }}
+                    animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                 className='col-span-5 place-self-center'>
+                    className='col-span-5 place-self-center'>
                     <div className="rounded-full  w-[250px] h-[250px]  relative lg:w-[400px] lg:h-[400px]">
                         <Image
                             src={'/images/portfolioimg.jpg'}
@@ -56,6 +56,7 @@ const HeroSection = () => {
                             height={300}
                             className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-3xl'
                         />
+
                     </div>
                 </motion.div>
             </div>
