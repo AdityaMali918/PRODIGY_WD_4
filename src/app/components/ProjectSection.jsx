@@ -8,7 +8,7 @@ const projectData =[
     {
         id:1,
         title:"Airbnb Clone",
-        image:"/images/projects/airbnb.png",
+        image:"./images/projects/airbnb.png",
         description:"Airbnb clone app with fully functional booking system.",
         tag:["All","Web"],
         previewUrl:"https://airbnbclone-app.onrender.com/",
@@ -17,7 +17,7 @@ const projectData =[
     {
         id:2,
         title:"ValoStats",
-        image:"/images/projects/valostats.png",
+        image:"./images/projects/valostats.png",
         description:"ValoStats website is a platform offering a detailed overview of Valorant, providing game information and valuable insights to help players improve their gameplay.",
         tag:["All","Web"],
         previewUrl:"https://adityamali918.github.io/VALOSTATS/",
@@ -26,7 +26,7 @@ const projectData =[
     {
         id:3,
         title:"Car Auction",
-        image:"/images/projects/caraction.jpg",
+        image:"./images/projects/caraction.jpg",
         description:"Online car auction platform that allows user to bid on vechicles virtually.",
         tag:["All","Web"
     ],

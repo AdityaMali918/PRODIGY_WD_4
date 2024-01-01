@@ -50,7 +50,7 @@ const HeroSection = () => {
                     className='col-span-5 place-self-center'>
                     <div className="rounded-full  w-[250px] h-[250px]  relative lg:w-[400px] lg:h-[400px]">
                         <Image
-                            src={'/images/portfolioimg.jpg'}
+                            src={'./images/portfolioimg.jpg'}
                             alt="hero image"
                             width={300}
                             height={300}
