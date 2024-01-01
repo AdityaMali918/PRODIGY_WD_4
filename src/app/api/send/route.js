@@ -9,12 +9,12 @@ export async function POST(req, res) {
   console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
-      from: RESEND_EMAIL,
+      from: fromEmail, // Use fromEmail instead of RESEND_EMAIL
       to: [fromEmail, email],
       subject: subject,
       react: (
         <>
-        <h1>Email: {email}</h1>
+          <h1>Email: {email}</h1>
           <h2>{subject}</h2>
           <p>Thank you for contacting us!</p>
           <p>New message submitted:</p>
@@ -24,6 +24,7 @@ export async function POST(req, res) {
     });
     return NextResponse.json(data);
   } catch (error) {
-    return NextResponse.json({ error });
+    console.error("Error sending email:", error);
+    return NextResponse.json({ error: "Failed to send email" });
   }
 }
