@@ -58,6 +58,7 @@ const AboutSection = () => {
                 <Image src="/images/Computer.jpg"
                     width={600}
                     height={600}
+                    alt='Computer'
                     className='rounded-xl'
                 />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
